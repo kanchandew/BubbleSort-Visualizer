@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" type="image/x-icon" href="resources\icon.png"/>
+    <title>Sort Visualizer</title>
+  </head>
+  <body>
+      <div class="navbar-blur">
+      <nav>
+    <div >
+        <a class="navbar-brand" href="#"><img src="resources\logo.png" width="100"></a>
+    </div>          
+        </nav>
+    </div>
+    <br />
+    <section class=" hero-section">
+        <div class="videoss">
+              <video
+      src="resources\background.mp4" 
+        muted
+        loop
+        autoplay
+        height="1075" 
+        
+      ></video>
+<div>
+      <div class="hero-content">
+        <h1>Bubble Sort Visualizer</h1>
+        <p>
+          Experience the Bubble Sort algorithm in action with our interactive
+          visualizer. <br> Watch as the algorithm sorts blocks in real-time,
+          demonstrating each step clearly and efficiently.
+        </p>
+    </div>
+    <div>
+       <div class="info-parent">
+        <div class="sort-description">
+            <div style="font-family: 'Jura', Courier, monospace; font-size: 35px;">DESCRIPTION</div>
+            
+<p>
+Bubble Sort is an iterative sorting algorithm that imitates the movement of bubbles in sparkling water.
+The bubbles represents the elements of the data structure.
+</p>
+<p>
+The bigger bubbles reach the top faster than smaller bubbles, and this algorithm works in the same way. It iterates through the data structure and for each cycle compares the current element with the next one,
+swapping them if they are in the wrong order.
+</p>
+        </div>
+        <div  class="table-box">
+            <div style="font-family: 'Jura', Courier, monospace; font-size: 35px;">COMPLEXITY</div>
+            <table class="sort-table aos-init aos-animate" data-aos="flip-left">
+                <tbody><tr>
+                    <th>
+                        Average Complexity
+                    </th>
+                    <td>
+                        
+O(n<sup>2</sup>)
+
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        Best Case
+                    </th>
+                    <td>
+                        
+O(n)
+
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        Worst Case
+                    </th>
+                    <td>
+                        
+O(n<sup>2</sup>)
+
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        Space Complexity
+                    </th>
+                    <td>
+                        
+O(1)
+
+                    </td>
+                </tr>
+            </tbody></table>
+        </div>
+    </div>         
+</div>
+</div>
+</div>
+<br><br><br><br><br><br>
+<div class="buttonsize">
+    <button onclick="startVisualization()">Start Visualization</button>
+    <button onclick="reload()" >Re-Set The Array</button>
+</div>
+</div>
+    <div id="array"></div>
+    <div class="footer_con">
+      <div class="container-footer w-container">
+        <div class="w-row">
+          <div class="footer-column w-clearfix w-col w-col-4">
+            <img
+              src="resources\logo.png"
+              alt=""
+              width="350" height="170"
+              class="failory-logo-image"
+            />     
+            </p>
+          </div>
+          <div class="footer-column w-col w-col-8">
+            <div class="w-row">
+              <div class="w-col w-col-8">
+                <div class="w-row">
+                  <div class="w-col w-col-7 w-col-small-6 w-col-tiny-7">
+                    <h3 class="footer-titles">Sort Visualizer</h3>
+                    <p class="footer-links">
+                      <a href="" target="_blank"
+                        ><span class="footer-link">Anjali Sahu<br /></span></a
+                      ><a href=""
+                        ><span class="footer-link"
+                          >Kanchan Dewangan<br /></span></a
+                      ><a href=""
+                        ><span class="footer-link">Khushboo Jain</span>
+                    </p>
+                  </div>
+                  <div class="w-col w-col-5 w-col-small-6 w-col-tiny-5">
+                    <h3 class="footer-titles">Mails</h3>
+                    <p class="footer-links">
+                      <a href=""
+                        ><span class="footer-link">anjali.sahu2022@ssipmt.com<br /></span></a
+                      ><a href=""
+                        ><span class="footer-link">kanchan.dewangan@ssipmt.com<br /></span></a
+                      ><a href=""><span class="footer-link"></span></a
+                      ><a href=""
+                        ><span class="footer-link">khushboojain@ssipmt.com<br /></span></a
+                      >
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
